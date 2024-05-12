@@ -44,4 +44,4 @@ app.get("/checkDB", function (req, res) {
   });
 });
 
-app.listen(5000, console.log("Сервер успешно запущен на порту 3000"));
+app.listen(5000, console.log("Сервер успешно запущен на порту 5000"));
