@@ -21,7 +21,7 @@ app.use(
   })
 );
 
-app.use(express.static(path.join("../", "client/build")));
+app.use(express.static(path.join(_dirname, "../client/build")));
 const userDB = process.env.USERDB;
 app.get("/check", function (req, res) {
   res.json({ response: "work" });
